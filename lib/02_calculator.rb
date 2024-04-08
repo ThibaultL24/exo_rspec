@@ -1,12 +1,12 @@
 def add (a, b)
     return a + b
-end
+  end
 
-def subtract (a, b)
-    return a + b
-end
+  def subtract (a, b)
+    return a - b
+  end
 
-def sum(array)
+  def sum(array)
     array.inject(0, :+)
   end
 
@@ -25,3 +25,5 @@ def sum(array)
       return n * factorial(n - 1)
     end
   end
+
+  puts factorial(5)
