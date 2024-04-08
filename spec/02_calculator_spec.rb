@@ -1,4 +1,4 @@
-require_relative '../lib/02_calculator'
+require_relative '~/THP/semaine3/exo_rspec/lib/02_calculator'
 
 describe "add" do
   it "adds 0 and 0" do
